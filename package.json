@@ -1,6 +1,6 @@
 {
   "name": "zkflow-task-sequence",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sequence gulp task in ZKflow format",
   "main": "src/sequenceTask.js",
   "repository": {
