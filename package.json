@@ -1,0 +1,33 @@
+{
+  "name": "zkflow-task-sequence",
+  "version": "0.0.0",
+  "description": "sequence gulp task in ZKflow format",
+  "main": "src/sequenceTask.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaklinaczekodu/zkflow-task-sequence.git"
+  },
+  "keywords": [
+    "gulp",
+    "zkflow",
+    "task",
+    "sequence"
+  ],
+  "author": "Piotr Baranowski <piotr.baranowski@zaklinaczekodu.com> (https://github.com/zaklinaczekodu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaklinaczekodu/zkflow-task-sequence/issues"
+  },
+  "homepage": "https://github.com/zaklinaczekodu/zkflow-task-sequence",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-zkflow-nodemodule": "0.1.1"
+  },
+  "peerDependencies": {
+    "gulp": "3.*"
+  },
+  "dependencies": {
+    "lodash.assign": "4.0.3",
+    "run-sequence": "1.1.5"
+  }
+}
