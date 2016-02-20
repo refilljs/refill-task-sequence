@@ -1,7 +1,7 @@
 # ZKflow task sequence
 
 Sequence gulp task in [ZKflow](https://github.com/zaklinaczekodu/zkflow) format. It can be used to run sequence of tasks
-ussing [run-sequence](https://www.npmjs.com/package/run-sequence).
+using [run-sequence](https://www.npmjs.com/package/run-sequence).
 
 [<img alt="Made by Zaklinacze Kodu" src="http://zaklinaczekodu.com/_assets/madeBy.svg" width="200">](http://zaklinaczekodu.com)
 
@@ -48,7 +48,7 @@ require('zkflow')({
 Usage
 -----
 
-Make sure you udnerstand [how ZKflow works](https://github.com/zaklinaczekodu/zkflow)
+Make sure you understand [how ZKflow works](https://github.com/zaklinaczekodu/zkflow)
 
 ### Default options
 
@@ -64,7 +64,7 @@ require('zkflow')({
 
 ### sequnce
 
-Array, it will be passed to [run-sequence](https://www.npmjs.com/package/run-sequence) with gulp callback appended at the end.
+Array, it will be passed as arguments to [run-sequence](https://www.npmjs.com/package/run-sequence) with gulp task callback appended at the end.
 
 ### mode
 
