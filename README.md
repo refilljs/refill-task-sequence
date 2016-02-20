@@ -26,36 +26,50 @@ Installation
 npm install --save zkflow-task-sequence zkflow gulp
 ```
 
-Usage
------
+Example
+-------
 
-gulpfile.js
+ZKflow task sequence is used in [ZKflow for Angular](https://github.com/zaklinaczekodu/zkflow-angular)
+
+Quickstart
+----------
+
+Just put this code in gulpfile.js
 
 ```javaScript
 require('zkflow')({
   'sequence': {
     task: require('zkflow-task-sequence'),
-    sequence: ['some-task'],
-    mode: {}
+    sequence: ['some-task']
   }
-}, require('gulp'), mode)
+}, require('gulp'), {})
 ```
+
+Usage
+-----
+
+Make sure you udnerstand [how ZKflow works](https://github.com/zaklinaczekodu/zkflow)
+
+### Default options
+
+```javaScript
+require('zkflow')({
+  'sequence': {
+    task: require('zkflow-task-sequence'),
+    sequence: [],
+    mode: undefined
+  }
+}, require('gulp'), {})
+```
+
+### sequnce
+
+Array, it will be passed to [run-sequence](https://www.npmjs.com/package/run-sequence) with gulp callback appended at the end.
 
 ### mode
 
-Mode object.
-
-Options
-
-Default options
----------------
-
-```javaScript
-{
-  sequence: [],
-  mode: undefined
-}
-```
+Object or undefined, this object will extend mode object, usefull if you want to change mode of operation of task before
+running the sequence.
 
 Sponsors
 --------
