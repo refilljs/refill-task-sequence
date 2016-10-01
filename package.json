@@ -32,7 +32,6 @@
     "refill": "^1"
   },
   "dependencies": {
-    "lodash.assign": "4.2.0",
     "run-sequence": "1.2.2"
   }
 }
