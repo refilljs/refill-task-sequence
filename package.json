@@ -1,33 +1,37 @@
 {
-  "name": "zkflow-task-sequence",
+  "name": "refill-task-sequence",
   "version": "1.0.1",
-  "description": "sequence gulp task in ZKflow format",
+  "description": "Sequence task in Refill format",
   "main": "src/sequenceTask.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zaklinaczekodu/zkflow-task-sequence.git"
+    "url": "https://github.com/refilljs/refill-task-sequence.git"
   },
   "keywords": [
     "gulp",
-    "zkflow",
+    "refill",
     "task",
     "sequence"
   ],
   "author": "Piotr Baranowski <piotr.baranowski@zaklinaczekodu.com> (https://github.com/zaklinaczekodu)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zaklinaczekodu/zkflow-task-sequence/issues"
+    "url": "https://github.com/refilljs/refill-task-sequence/issues"
   },
-  "homepage": "https://github.com/zaklinaczekodu/zkflow-task-sequence",
+  "homepage": "https://github.com/refilljs/refill-task-sequence",
+  "engines": {
+    "node": ">=4.2",
+    "npm": ">=3.3.3"
+  },
   "devDependencies": {
     "gulp": "3.9.1",
-    "gulp-zkflow-nodemodule": "0.1.1"
+    "zkflow-node": "1.0.0"
   },
   "peerDependencies": {
-    "gulp": "3.*"
+    "gulp": "^3",
+    "refill": "^1"
   },
   "dependencies": {
-    "lodash.assign": "4.0.3",
-    "run-sequence": "1.1.5"
+    "run-sequence": "1.2.2"
   }
 }
