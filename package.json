@@ -1,6 +1,6 @@
 {
   "name": "refill-task-sequence",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Sequence task in Refill format",
   "main": "src/sequenceTask.js",
   "repository": {
